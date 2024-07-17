@@ -1,0 +1,10 @@
+spring:
+  rabbitmq:
+    host: localhost
+order:
+  queue: order-queue
+  exchange: order-exchange
+  routingkey: order-routing
+
+payment:
+  queue: payment-queue
